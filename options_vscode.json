@@ -1,0 +1,123 @@
+{
+    // Шрифт
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    // Code Spell Checker
+    "cSpell.language": "en,ru",
+    // Prettier настройки
+    "editor.formatOnPaste": true,
+    "prettier.useTabs": true,
+    "prettier.semi": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "avoid",
+    // Терминал по умолчанию (закомментировано)
+    // "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    // Настройки хлебных крошек
+    "breadcrumbs.icons": false,
+    "breadcrumbs.showKeys": false,
+    "breadcrumbs.showFiles": false,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.showArrays": false,
+    "breadcrumbs.showBooleans": false,
+    "breadcrumbs.showClasses": false,
+    "breadcrumbs.showConstants": false,
+    "breadcrumbs.showConstructors": false,
+    "breadcrumbs.showEnumMembers": false,
+    "breadcrumbs.showEventshowFieldss": false,
+    "breadcrumbs.": false,
+    "breadcrumbs.showEnums": false,
+    "breadcrumbs.showFunctions": false,
+    "breadcrumbs.showInterfaces": false,
+    "breadcrumbs.showMethods": false,
+    "breadcrumbs.showModules": false,
+    "breadcrumbs.showNamespaces": false,
+    "breadcrumbs.showNull": false,
+    "breadcrumbs.showNumbers": false,
+    "breadcrumbs.showObjects": false,
+    "breadcrumbs.showOperators": false,
+    "breadcrumbs.showPackages": false,
+    "breadcrumbs.showProperties": false,
+    "breadcrumbs.showStrings": false,
+    "breadcrumbs.showStructs": false,
+    "breadcrumbs.showTypeParameters": false,
+    "breadcrumbs.showVariables": false,
+    // Миникарта
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    // Плавная прокрутка окна
+    "window.smoothScrollingWorkaround": true,
+    // Отображение пробелов
+    "editor.renderWhitespace": "all",
+    // Терминал по умолчанию
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    // Доверие к файлам рабочей области
+    "security.workspace.trust.untrustedFiles": "open",
+    // Ассоциации файлов
+    "files.associations": {
+        "*.py": "python",
+        "*.html": "html"
+    },
+    // Подтверждение перетаскивания в проводнике
+    "explorer.confirmDragAndDrop": false,
+    // Цветовая тема
+    "workbench.colorTheme": "Bearded Theme Black & Amethyst",
+    // Подсветка невидимых символов
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    // Иконка вкладок терминала
+    "terminal.integrated.tabs.defaultIcon": "reply",
+    // Шаблоны вложения файлов в проводнике
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    // Ассоциации редакторов
+    "workbench.editorAssociations": {
+        "*.db": "sqlite3-editor.editor"
+    },
+    // Подтверждение удаления в проводнике
+    "explorer.confirmDelete": false,
+    // Путь к интерпретатору Python по умолчанию
+    "python.defaultInterpreterPath": "C:\\Users\\максим\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    // Плавная прокрутка редактора
+    "editor.smoothScrolling": true,
+    // Тема иконок
+    "workbench.iconTheme": "vscode-icons",
+    // Автосохранение файлов
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    // Доверие к рабочей области
+    "security.workspace.trust.enabled": false,
+    // Определение отступов
+    "editor.detectIndentation": false,
+    // Подсказки параметров
+    "editor.parameterHints.enabled": false,
+    // Язык по умолчанию для новых файлов
+    "files.defaultLanguage": "python",
+    // Отключение хлебных крошек
+    "breadcrumbs.enabled": false,
+    // Отображение статусной строки
+    "workbench.statusBar.visible": false,
+    // Начальная страница
+    "workbench.startupEditor": "newUntitledFile",
+    // Свертывание кода
+    "editor.folding": false,
+    // Поля символов
+    "editor.glyphMargin": false,
+    // Подсказки при наведении
+    "editor.hover.enabled": false,
+    // Направляющие отступов
+    "workbench.tree.renderIndentGuides": "always",
+    // Расположение панели активности
+    "workbench.activityBar.location": "hidden"
+}
