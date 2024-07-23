@@ -11,8 +11,6 @@
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.arrowParens": "avoid",
-    // Терминал по умолчанию (закомментировано)
-    // "terminal.integrated.defaultProfile.windows": "Command Prompt",
     // Настройки хлебных крошек
     "breadcrumbs.icons": false,
     "breadcrumbs.showKeys": false,
@@ -49,8 +47,6 @@
     "window.smoothScrollingWorkaround": true,
     // Отображение пробелов
     "editor.renderWhitespace": "all",
-    // Терминал по умолчанию
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     // Доверие к файлам рабочей области
     "security.workspace.trust.untrustedFiles": "open",
     // Ассоциации файлов
